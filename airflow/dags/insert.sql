@@ -1,0 +1,6 @@
+LOAD DATA LOCAL INFILE '/usr/local/airflow/dags/Book1.csv'
+INTO TABLE traffic
+FIELDS TERMINATED BY ';'
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
